@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tajawal", sans-serif;
+}
+header{
+    background: url(../../../public/images/header.jpg) center no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 25px 0px;
+    margin-top: 0px;
+}
+header .row{
+    margin: 60px 0px;
+}
+header h2{
+    color: #43121d;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: "Tajawal", sans-serif;
+    font-weight: bold;
+    width: 80%;
+    /* margin-top: 100px; */
+}
+header p{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Tajawal", sans-serif;
+    margin: 15px 0px;
+}
+header button{
+    width: 150px;
+    height: 40px;
+    background: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin: 20px 10px 20px 0px;
+    padding: 5px 0px;
+    font-weight: bold;
+    /* font-size: 14px; */
+    text-transform: uppercase;
+    font-family: "Tajawal", sans-serif;
+}
+header button span{
+    padding: 0px 7px;
+    text-align: center;
+}
+header button:last-of-type{
+    background: #fff;
+    color: #000;
+    border: none;
+    box-shadow: 0px 0px 15px 0px #000;
+}
+header button:hover{
+    transition: 0.2s ease-in-out;
+}
+header button:last-of-type:hover{
+    background: #fff;
+    color: #a82d49;
+}
+header button:first-of-type{
+    background: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    color: #fff;
+    transition: 0.5;
+}
+header button:first-of-type:hover{
+    background: #fff;
+    color: #a82d49;
+}
